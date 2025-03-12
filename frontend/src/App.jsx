@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import EntryPage from "./components/entry/EntryPage";
 import Home from "./components/homepage/Home";
 import { SignIn, SignUp, SignedIn,UserProfile } from "@clerk/clerk-react";
+import DashBoard from "./components/dashboard/DashBoard";
+import AI from "./components/ai/AI";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           </SignedIn>
         } 
       />
+      <Route path="/dashboard" element={<DashBoard/>}/>
+      <Route path="/ai" element={<AI/>}/>
     </Routes>
   );
 }

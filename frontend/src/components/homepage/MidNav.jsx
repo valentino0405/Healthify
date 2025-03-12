@@ -52,7 +52,7 @@ const MidNav = () => {
   const sections = [
     { name: "User Profile", path: "/userpro" },
     { name: "Leaderboard", path: "/leaderboard" },
-    { name: "Chatbot", path: "/chatbot" },
+    { name: "Chatbot", path: "/ai" },
     { name: "Dashboard", path: "/dashboard" },
     { name: "E-commerce", path: "/ecommerce" },
     { name: "Doctor Appointment", path: "/doctorappor" },

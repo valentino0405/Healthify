@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const Sidebar = styled(Box)({
   width: "7vw",
-  height: "contain",
+  height: "100vh",
   background: "#000000",
   display: "flex",
   flexDirection: "column",
