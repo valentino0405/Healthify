@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import EntryPage from "./components/entry/EntryPage";
 import Home from "./components/homepage/Home";
+import HabitTrack from "./components/habit/HabitTrack";
 import { SignIn, SignUp, SignedIn,UserProfile } from "@clerk/clerk-react";
 
 function App() {
@@ -15,6 +16,14 @@ function App() {
         element={
           <SignedIn>
             <Home />
+          </SignedIn>
+        } 
+      />
+      <Route 
+        path="/habit" 
+        element={
+          <SignedIn>
+            <HabitTrack />
           </SignedIn>
         } 
       />

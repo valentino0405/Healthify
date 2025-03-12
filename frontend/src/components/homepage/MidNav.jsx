@@ -56,7 +56,7 @@ const MidNav = () => {
     { name: "Dashboard", path: "/dashboard" },
     { name: "E-commerce", path: "/ecommerce" },
     { name: "Doctor Appointment", path: "/doctorappor" },
-    { name: "Habit (Journal + Routine)", path: "/habitjr" },
+    { name: "Habit (Journal + Routine)", path: "/habit" },
   ];
 
   return (
